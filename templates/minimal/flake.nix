@@ -2,7 +2,7 @@
   description = "λ well-tailored and configureable NixOS system!";
 
   inputs = {
-    dotfiles.url = "github:icy-thought/snowflake";
+    dotfiles.url = "github:orther/snowflake";
   };
 
   outputs = inputs @ {dotfiles, ...}: {

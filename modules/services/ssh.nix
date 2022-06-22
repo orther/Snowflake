@@ -23,7 +23,7 @@ in {
     };
 
     user.openssh.authorizedKeys.keys =
-      if config.user.name == "icy-thought"
+      if config.user.name == "orther"
       then [
         # TODO: replace with functional ssh-key.
       ]

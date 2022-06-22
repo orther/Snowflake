@@ -12,7 +12,7 @@ with lib.my; {
 
     snowflake = {
       dir = mkOpt path (findFirst pathExists (toString ../.) [
-        "${config.user.home}/git/Icy-Thought/Snowflake"
+        "${config.user.home}/git/orther/Snowflake"
         "/etc/Snowflake"
       ]);
       binDir = mkOpt path "${config.snowflake.dir}/bin";
@@ -46,7 +46,7 @@ with lib.my; {
       user = builtins.getEnv "USER";
       name =
         if elem user ["" "root"]
-        then "icy-thought"
+        then "orther"
         else user;
     in {
       inherit name;
@@ -62,9 +62,9 @@ with lib.my; {
     home-manager = {
       useUserPackages = true;
       # Re-defining home-manager settings for modified option-names:
-      # home.X (option)  ->  home-manager.users.icy-thought.home.inser-option-here
-      # home.configFile  ->  home-manager.users.icy-thought.home.xdg.configFile
-      # home.dataFile    ->  home-manager.users.icy-thought.home.xdg.dataFile
+      # home.X (option)  ->  home-manager.users.orther.home.inser-option-here
+      # home.configFile  ->  home-manager.users.orther.home.xdg.configFile
+      # home.dataFile    ->  home-manager.users.orther.home.xdg.dataFile
       users.${config.user.name} = {
         programs = mkAliasDefinitions options.home.programs;
         services = mkAliasDefinitions options.home.services;

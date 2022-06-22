@@ -88,8 +88,8 @@ in {
         "*.elc"
       ];
 
-      userName = "Icy-Thought";
-      userEmail = "icy-thought@pm.me";
+      userName = "Orther";
+      userEmail = "brandon@orther.dev";
       signing = {
         signByDefault = true;
         key = "B593E438DDAB3C66";
@@ -110,8 +110,8 @@ in {
           autoSquash = true;
         };
 
-        github.user = "Icy-Thought";
-        gitlab.user = "Icy-Thought";
+        github.user = "orther";
+        gitlab.user = "orther";
 
         filter = {
           required = true;
@@ -123,7 +123,7 @@ in {
         url = {
           "https://github.com/".insteadOf = "gh:";
           "git@github.com:".insteadOf = "ssh+gh:";
-          "git@github.com:icy-thought/".insteadOf = "gh:/";
+          "git@github.com:orther/".insteadOf = "gh:/";
           "https://gitlab.com/".insteadOf = "gl:";
           "https://gist.github.com/".insteadOf = "gist:";
           "https://bitbucket.org/".insteadOf = "bb:";

@@ -344,13 +344,13 @@
       "locked": {
         "lastModified": 1650471637,
         "narHash": "sha256-WpuI+cqTZZ704rarUTVM9rrXiYagj6ZWRtxA4cpdAPA=",
-        "owner": "icy-thought",
+        "owner": "orther",
         "repo": "taffybar",
         "rev": "2cdd96ca0312fa553edded0af602c62e41170a8e",
         "type": "github"
       },
       "original": {
-        "owner": "icy-thought",
+        "owner": "orther",
         "repo": "taffybar",
         "type": "github"
       }

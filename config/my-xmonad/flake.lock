@@ -223,13 +223,13 @@
       "locked": {
         "lastModified": 1649693989,
         "narHash": "sha256-J9JxJIK9+Xjr9q3O3LyVmlSBUoHtMYO/Ia6T7kVxOJ4=",
-        "owner": "icy-thought",
+        "owner": "orther",
         "repo": "xmonad-contrib",
         "rev": "439b994d464b7b9fbd6624dca92594839d008d89",
         "type": "github"
       },
       "original": {
-        "owner": "icy-thought",
+        "owner": "orther",
         "repo": "xmonad-contrib",
         "type": "github"
       }

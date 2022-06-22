@@ -819,13 +819,13 @@
       "locked": {
         "lastModified": 1650471637,
         "narHash": "sha256-WpuI+cqTZZ704rarUTVM9rrXiYagj6ZWRtxA4cpdAPA=",
-        "owner": "icy-thought",
+        "owner": "orther",
         "repo": "taffybar",
         "rev": "2cdd96ca0312fa553edded0af602c62e41170a8e",
         "type": "github"
       },
       "original": {
-        "owner": "icy-thought",
+        "owner": "orther",
         "repo": "taffybar",
         "type": "github"
       }
@@ -908,13 +908,13 @@
       "locked": {
         "lastModified": 1653033063,
         "narHash": "sha256-Moo0+LZj6/+SHBPMp8BqZFue63+HyZ5BNeZUP8zIdQo=",
-        "owner": "icy-thought",
+        "owner": "orther",
         "repo": "xmonad-contrib",
         "rev": "12f4de7986a9cf0f7786f121dfa3f2682b840253",
         "type": "github"
       },
       "original": {
-        "owner": "icy-thought",
+        "owner": "orther",
         "repo": "xmonad-contrib",
         "type": "github"
       }
